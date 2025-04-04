@@ -710,7 +710,7 @@ install_marzban() {
     local marzban_version=$1
     local database_type=$2
     # Fetch releases
-    FILES_URL_PREFIX="https://raw.githubusercontent.com/Gozargah/Marzban/master"
+    FILES_URL_PREFIX="https://raw.githubusercontent.com/simples021/scripts-1/master"
     
     mkdir -p "$DATA_DIR"
     mkdir -p "$APP_DIR"
