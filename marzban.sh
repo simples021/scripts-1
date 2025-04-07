@@ -123,7 +123,7 @@ detect_compose() {
 }
 
 install_marzban_script() {
-    FETCH_REPO="Gozargah/Marzban-scripts"
+    FETCH_REPO="simples021/scripts-1"
     SCRIPT_URL="https://github.com/$FETCH_REPO/raw/master/marzban.sh"
     colorized_echo blue "Installing marzban script"
     curl -sSL $SCRIPT_URL | install -m 755 /dev/stdin /usr/local/bin/marzban
@@ -1472,7 +1472,7 @@ update_command() {
 }
 
 update_marzban_script() {
-    FETCH_REPO="Gozargah/Marzban-scripts"
+    FETCH_REPO="simples021/scripts-1"
     SCRIPT_URL="https://github.com/$FETCH_REPO/raw/master/marzban.sh"
     colorized_echo blue "Updating marzban script"
     curl -sSL $SCRIPT_URL | install -m 755 /dev/stdin /usr/local/bin/marzban
